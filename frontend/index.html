@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Microservices Dashboard</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header>
+    <h1>AI Microservices Dashboard</h1>
+    <p>LangChain + Ollama (Mistral) APIs in action</p>
+  </header>
+
+  <main>
+    <!-- Summarize -->
+    <section class="card">
+      <h2>Text Summarization</h2>
+      <textarea id="summarize-text" placeholder="Paste your text here..."></textarea>
+      <select id="summarize-length">
+        <option value="short">Short</option>
+        <option value="medium">Medium</option>
+        <option value="long">Long</option>
+      </select>
+      <button onclick="callSummarize()">Summarize</button>
+      <span class="loader" id="summarize-loader"></span>
+      <pre id="summarize-result"></pre>
+    </section>
+
+    <!-- Q&A -->
+    <section class="card">
+      <h2>Document Q&A</h2>
+      <input type="text" id="qa-query" placeholder="Ask a question..." />
+      <textarea id="qa-text" placeholder="Optional text input"></textarea>
+      <input type="file" id="qa-file" />
+      <button onclick="callQA()">Get Answer</button>
+      <span class="loader" id="qa-loader"></span>
+      <pre id="qa-result"></pre>
+    </section>
+
+    <!-- Learning Path -->
+    <section class="card">
+      <h2>Dynamic Learning Path</h2>
+      <input type="text" id="lp-goal" placeholder="Learning Goal" />
+      <input type="text" id="lp-background" placeholder="Your Background (optional)" />
+      <input type="number" id="lp-weeks" placeholder="Duration (weeks)" />
+      <input type="number" id="lp-hours" placeholder="Hours per week" />
+      <button onclick="callLearningPath()">Generate Path</button>
+      <span class="loader" id="lp-loader"></span>
+      <div id="lp-result" style="margin-top:12px;"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AI Microservices by Lebi</p>
+  </footer>
+
+  <script src="/static/script.js?v=1"></script>
+</body>
+</html>
