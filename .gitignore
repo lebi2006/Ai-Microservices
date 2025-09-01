@@ -34,9 +34,6 @@ build/
 *.env
 .env.*
 
-*.postman_collection.json
-*.postman_environment.json
-
 /staticfiles/
 frontend/node_modules/
 frontend/dist/
