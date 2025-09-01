@@ -21,6 +21,32 @@ It also includes a **frontend dashboard**, a **sample document for testing**, an
   - **Learning Path Generator** → `/learning-path`
 
   - **Health Check** → `/health`
+=======
+\# AI Microservices (LangChain + Ollama)
+
+
+
+This project implements \*\*three AI-powered microservices\*\* using \*\*FastAPI\*\*, \*\*LangChain\*\*, and a local \*\*Ollama (Mistral)\*\* model.
+
+It also includes a \*\*frontend dashboard\*\*, a \*\*sample document\*\* for testing, and a \*\*Postman collection\*\* for API validation.
+
+
+
+\## Assignment Deliverables
+
+
+
+\### 1. REST API (FastAPI)
+
+\- The backend is built with \*\*FastAPI\*\* (`app/main.py`) and exposes the following endpoints:
+
+  - \*\*Summarization\*\* → `/summarize`
+
+  - \*\*Document Q\&A\*\* → `/qa`
+
+  - \*\*Learning Path Generator\*\* → `/learning-path`
+
+  - \*\*Health Check\*\* → `/health`
 
 
 
@@ -331,7 +357,11 @@ API docs: http://127.0.0.1:8000/docs
 Frontend: http://127.0.0.1:8000/
 
 
+<<<<<<< HEAD
 ###### **Author:**
+=======
+
+>>>>>>> af629b9 (Initial commit with README and project files)
 ###### **Lebi Maria C.**
 
 ###### **AI Microservices with LangChain + Ollama**
@@ -342,4 +372,7 @@ Frontend: http://127.0.0.1:8000/
 
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> af629b9 (Initial commit with README and project files)
