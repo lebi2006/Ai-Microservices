@@ -1,5 +1,8 @@
 # **AI Microservices (LangChain + Ollama)**
 
+## Project Workflow Demo
+Watch the demo video here: [AI_Microservices.mp4](https://drive.google.com/file/d/13srf5R_qhDRCjmrbQQIZIrCVy_7c74PT/view?usp=drive_link)
+
 
 
 This project implements three AI-powered microservices using **FastAPI**, **LangChain,** and a local **Ollama (Mistral) model**.
@@ -361,5 +364,6 @@ Frontend: http://127.0.0.1:8000/
 ###### **AI Microservices with LangChain + Ollama**
 
 ###### **Date: Aug 2025**
+
 
 
