@@ -21,7 +21,7 @@ It also includes a **frontend dashboard**, a **sample document for testing**, an
   - **Learning Path Generator** → `/learning-path`
 
   - **Health Check** → `/health`
-=======
+
 \# AI Microservices (LangChain + Ollama)
 
 
@@ -353,12 +353,9 @@ API docs: http://127.0.0.1:8000/docs
 
 Frontend: http://127.0.0.1:8000/
 
-
-<<<<<<< HEAD
 ###### **Author:**
-=======
 
->>>>>>> af629b9 (Initial commit with README and project files)
+###### **Author:**
 ###### **Lebi Maria C.**
 
 ###### **AI Microservices with LangChain + Ollama**
@@ -366,10 +363,3 @@ Frontend: http://127.0.0.1:8000/
 ###### **Date: Aug 2025**
 
 
-
-
-
-<<<<<<< HEAD
-
-=======
->>>>>>> af629b9 (Initial commit with README and project files)
