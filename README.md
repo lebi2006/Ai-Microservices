@@ -331,12 +331,13 @@ API docs: http://127.0.0.1:8000/docs
 Frontend: http://127.0.0.1:8000/
 
 
-
+###### **Author:**
 ###### **Lebi Maria C.**
 
 ###### **AI Microservices with LangChain + Ollama**
 
 ###### **Date: Aug 2025**
+
 
 
 
